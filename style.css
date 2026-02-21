@@ -1,0 +1,220 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url(outrun-neon-dark-background-purple-3840x2160-4523.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+header{
+    background-color: black;
+    background-origin: padding-box;
+    padding-right: 809.1px;
+}
+header .navbar{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    justify-content: space-between;
+}
+.navbar .nav-menu{
+    display:flex;
+    gap: 10px;
+}
+
+.navbar .nav-menu .nav-link{
+    color: white;
+    padding: 10px 15px; 
+    border-radius: 20px;
+    transition: 0.2s;
+}
+
+.navbar .nav-menu .nav-link:hover{
+    background-color: rgb(203, 8, 190);
+}
+.navbar .nav-logo .logo-text{
+    color: white;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+section{
+    color: white;
+}
+.container{
+    background-image: url(school-supplies-black-background-flat-layout_226451-367.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.quote{
+    text-align: center;
+    padding-top: 300px;
+    margin-right: 600px;
+    padding-bottom: 400px;
+    margin-left: 150px;
+}
+
+.row1, .row2{
+    display: flex;
+    width: 900px;
+    height: 600px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.col-1,.col-2,.col-3{
+    border: 1px solid white ;
+    height: 500px;
+    width: 300px;
+    margin-left: 85px;
+    background-image: inherit;
+    border-radius: 30px;
+    background-color: #0c000e94;
+    box-shadow: 20px 20px 20px rgb(128, 2, 142);
+}
+.aboutus{
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    max-width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(55, 53, 55);
+}
+
+.subjects{
+    margin-top: 20px;
+    padding-top: 100px;
+    margin-bottom: 50px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    max-width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(55, 53, 55);
+}
+h5{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.description{
+    align-items: center;
+    display: flex;
+
+}
+.row{
+    display: flex;
+    width: 1400px;
+    height: 300px;
+    margin-left: 30px;
+    margin-top: 40px;
+    background-color: rgba(0, 0, 0, 0.473);
+    border-radius: 20px;
+    box-shadow: 20px 20px 20px rgb(128, 2, 142);
+    margin-bottom: 50px;
+}
+.about-us{
+    text-align: justify;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: 40px;
+    margin-top: 40px;
+    
+}
+.column1{
+    margin-left: 100px;
+}
+.contact{
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    max-width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgb(55, 53, 55);
+}
+.form{
+    width: 500px;
+    height: 200px;
+    border: 1px solid rgb(110, 7, 147);
+    margin-left: 200px;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    background-color: rgba(0, 0, 0, 0.749);
+    box-shadow: 20px 20px 20px rgb(128, 2, 142);
+}
+.footer{
+    height:200px;
+    background-color: rgba(0, 0, 0, 0.8 );
+    position: relative;
+    top: 150px;
+    display: flex;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+h4{
+    color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.info{
+    margin-left: 500px;
+}
+.info1{
+    color: white;
+    padding-left: 200px;
+    padding-top: 75px;
+}
+.icons{
+    margin-left: 10px;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    position: relative;
+    left: 150px;
+    border-radius: 10px;
+    margin-left: 170px;
+    margin-right: 20px;
+}
+.btn:hover{
+    cursor: pointer;
+    box-shadow:  3px 3px 5px rgb(0, 0,0);
+    transform: scale(1.02,1.03);
+    transition: 0.5s;
+}
+input{
+    border-radius: 5px;
+}
+label{
+    padding: 10px;
+    font-size: large;
+    color: white;
+}
+hr{
+    border:2px solid rgb(84, 73, 85);
+}
